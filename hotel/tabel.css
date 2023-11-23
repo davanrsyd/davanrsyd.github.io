@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('front/bedroom-5664221.jpg') /* Latar belakang gambar */
+}
+
+.dashboard-container {
+    position: relative;
+    text-align: center;
+}
+
+.hotel-background {
+    width: 100%;
+    height: auto;
+}
+
+.hotel-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: white;
+}
+
+.dashboard-links {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dashboard-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Style untuk tabel */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan tabel */
+    border-radius: 10px; /* Membuat ujung tabel membulat */
+    overflow: hidden; /* Mengatasi masalah border-radius di beberapa browser */
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #3E2723; /* Warna latar header */
+    color: white;
+}
+
+td:nth-child(even) {
+    background-color: #D7CCC8; /* Warna berselingan untuk kolom genap */
+}
+
+tr:hover {
+    background-color: #f5f5f5; /* Warna latar saat hover */
+}
+
+/* Button style */
+.dashboard-button {
+    padding: 10px 20px;
+    background-color: #0072b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+    background-color: #005580;
+}
